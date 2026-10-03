@@ -23,7 +23,6 @@
 *.dll
 *.so.*
 
-
 # Fortran module files
 *.mod
 *.smod
@@ -70,3 +69,6 @@ Testing/
 
 # Mac OS
 .DS_Store
+
+# Directories
+Other/
