@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 
-    int ARR_SIZE = 10000; // here we specify the largest size we can theoretically need
+    const int ARR_SIZE = 10000; // here we specify the largest size we can theoretically need
     
     int a[ARR_SIZE] = {}; // when we know the size of the array before compiling and running the program
     // "= {}" expression fills the array with 0-s (initializes all elements to 0)
