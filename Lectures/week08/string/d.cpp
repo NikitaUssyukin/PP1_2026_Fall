@@ -16,8 +16,8 @@ using namespace std;
 
 int main() {
 
-    string a = "apple";
-    string b = "banana";
+    string a = "Apple";
+    string b = "Banana";
     string zoo = "Zoo";
     string lower_apple = "apple";
 
