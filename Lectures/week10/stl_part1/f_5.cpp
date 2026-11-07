@@ -27,7 +27,7 @@ int main() {
     int idx;
     cin >> idx;
 
-    cout << v.at(idx) << endl; // at() checks the index
+    cout << v.at(idx) << endl; // at() checks the index and stops with an error if it is out of range
 
     return 0;
 }

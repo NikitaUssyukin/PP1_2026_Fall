@@ -18,6 +18,7 @@ int main() {
         cin >> v[i];
     }
 
+    // print by index, just like a normal array
     for(int i = 0; i < v.size(); ++i) {
         cout << v[i] << " ";
     }

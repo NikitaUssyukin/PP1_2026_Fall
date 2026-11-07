@@ -19,9 +19,11 @@ int main() {
         string key;
         int value;
         cin >> key >> value;
+        // m[key] creates the key if it is missing
         m[key] = value;
     }
 
+    // each element is a pair: first is the key, second is the value
     for(pair<string, int> p : m) {
         cout << p.first << " " << p.second << endl;
     }

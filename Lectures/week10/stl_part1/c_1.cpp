@@ -12,6 +12,7 @@ int main() {
 
     vector<int> v;
 
+    // keep reading until there is no more input (end of file)
     int x;
     while(cin >> x) {
         v.push_back(x);

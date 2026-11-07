@@ -12,6 +12,7 @@ int main() {
 
     pair<string, int> p;
 
+    // read the two parts of the pair directly
     cin >> p.first >> p.second;
 
     cout << p.first << endl;

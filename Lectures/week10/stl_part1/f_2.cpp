@@ -21,6 +21,7 @@ int main() {
         s.insert(x);
     }
 
+    // same iterator pattern as d_3, now for a set
     for(set<int>::iterator it = s.begin(); it != s.end(); ++it) {
         cout << *it << " ";
     }

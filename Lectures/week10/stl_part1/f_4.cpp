@@ -13,7 +13,7 @@ int main() {
     set<int> s;
 
     int n;
-    cin >> n; // n >= 1
+    cin >> n; // n is at least 1
 
     for(int i = 0; i < n; ++i) {
         int x;

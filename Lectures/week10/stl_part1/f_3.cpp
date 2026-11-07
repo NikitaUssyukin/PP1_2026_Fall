@@ -24,6 +24,7 @@ int main() {
     int target;
     cin >> target;
 
+    // find returns end() when the value is not in the set
     if(s.find(target) != s.end()) {
         cout << "target " << target << " was found!\n";
     }

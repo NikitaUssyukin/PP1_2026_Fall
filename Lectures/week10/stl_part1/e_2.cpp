@@ -1,6 +1,6 @@
 /*
 STL
-Vector: sorting a subrange [l, r]
+Vector: sorting part of the vector
 */
 
 #include <iostream>
@@ -20,9 +20,9 @@ int main() {
     }
 
     int l, r;
-    cin >> l >> r; // 0 <= l <= r < n
+    cin >> l >> r; // l and r are valid positions, and l <= r
 
-    // end() of the range is one past r, so we pass begin() + r + 1
+    // the end of the range is one past r, so we pass begin() + r + 1
     sort(v.begin() + l, v.begin() + r + 1);
 
     for(int x : v) {
