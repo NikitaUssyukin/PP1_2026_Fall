@@ -6,7 +6,9 @@ sum of 2d
 
 using namespace std;
 
-int sum_2d(int m, int a[][1000], int n) {
+// Corrected: the array is the first parameter, then the number of rows and columns.
+// The call below passes (array, rows, columns); a different order does not compile.
+int sum_2d(int a[][1000], int n, int m) {
     int sum = 0;
     for(int i = 0; i < n; ++i) {
         for(int j = 0; j < m; ++j) {
