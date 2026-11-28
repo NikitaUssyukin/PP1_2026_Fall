@@ -8,7 +8,7 @@ using namespace std;
 
 struct Animal {
     int age;
-    int height;
+    int weight;
     string name;
 };
 
@@ -16,9 +16,9 @@ int main() {
 
     Animal a;
 
-    cin >> a.age >> a.height >> a.name;
+    cin >> a.age >> a.weight >> a.name;
 
-    cout << a.age << " " << a.height << " " << a.name;
+    cout << a.age << " " << a.weight << " " << a.name;
     cout << "\n";
 
     return 0;
